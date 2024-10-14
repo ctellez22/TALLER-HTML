@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background-color: #2a2a72;
+  padding: 30px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Main Content */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-description {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #2a2a72;
+  margin-bottom: 15px;
+}
+
+.player-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  color: #555;
+}
+
+.player-card p {
+  margin: 0 0 10px;
+}
+
+.list-group-item {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.list-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Subscription Form */
+.subscription-form {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.subscription-form .btn {
+  background-color: #2a2a72;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.subscription-form .btn:hover {
+  background-color: #1f1f59;
+}
+
+/* Footer */
+.footer {
+  background-color: #2a2a72;
+  color: white;
+  font-size: 1rem;
+}
